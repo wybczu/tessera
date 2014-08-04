@@ -142,6 +142,17 @@
                 but can be a better choice for rendering large numbers
                 of graphs or lengthy time periods.</small></p>
 	          </div>
+              <div class="radio">
+                <label for="chartRenderRadios-2">
+                  <!-- Interactive -->
+                  <input type="radio" name="chartRenderRadios" id="chartRenderRadios-2" value="interactive" {% if ctx.prefs.renderer=='epoch' %} checked="checked"{% endif %} onclick="dsSetPref('renderer', 'epoch')">
+                    epoch
+                </label>
+                <p><small><a href="http://fastly.github.io/epoch/"
+                target="_blank">epoch</a> is an alternative D3-based
+                renderer. </small></p>
+	          </div>
+
             </div>
           </div>
 

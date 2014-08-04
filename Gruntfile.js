@@ -32,6 +32,7 @@ module.exports = function(grunt) {
           'tessera/static/css/bootstrapValidator.min.css',
           'tessera/static/css/font-awesome.css',
           'tessera/static/css/nv.d3.css',
+          'tessera/static/css/epoch.min.css',
           'tessera/static/css/select2.css',
           'tessera/static/css/select2-bootstrap.css'
         ],
@@ -55,6 +56,7 @@ module.exports = function(grunt) {
           'tessera/static/js/bootbox.min.js',
           'tessera/static/js/d3.min.js',
           'tessera/static/js/nv.d3.min.js',
+          'tessera/static/js/epoch.min.js',
           'tessera/static/js/tagmanager.js',
           'tessera/static/js/select2.min.js',
           'tessera/static/js/bootstrap-editable.min.js',
