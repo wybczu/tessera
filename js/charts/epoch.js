@@ -10,6 +10,10 @@ ds.charts.epoch =
     }
 
     self.standard_line_chart = function(e, item, query) {
+      $(e.selector + ' svg').epoch({
+        type: 'line',
+        data: query.chart_data('epoch')
+      })
     }
 
     self.simple_area_chart = function(e, item, query) {

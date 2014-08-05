@@ -93,6 +93,7 @@ module.exports = function(grunt) {
           'js/charts/graphite.js',
           'js/charts/nvd3.js',
           'js/charts/flot.js',
+          'js/charts/epoch.js',
           'js/app/actions.js',
           'js/property.js',
           'js/factory.js',
