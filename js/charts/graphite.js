@@ -15,6 +15,7 @@ ds.charts.graphite =
     function img(element, url) {
       element.html($('<img/>')
                      .attr('src', url)
+                     .attr('crossOrigin', 'use-credentials')
                      .height(element.height())
                      .width(element.width()))
     }
