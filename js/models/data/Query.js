@@ -113,7 +113,10 @@ ds.models.data.Query = function(data) {
       bean.fire(self, 'ds-data-loading')
       $.ajax({
         dataType: 'json',
-        url: url
+        url: url,
+        xhrFields: {
+          withCredentials: true
+        }
       })
        .done(function(response_data, textStatus) {
         self._process(response_data)
